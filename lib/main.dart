@@ -153,6 +153,9 @@ class _SIformState extends State<SIform> {
                                 }
                               });
                             })),
+                    Container(
+                      width: _minimumpadding * 2,
+                    ),
                     Expanded(
                         child: RaisedButton(
                             color: Theme.of(context).accentColor,
